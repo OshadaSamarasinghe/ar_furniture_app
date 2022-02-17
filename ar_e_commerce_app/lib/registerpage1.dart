@@ -22,7 +22,7 @@ class Registration1 extends StatelessWidget {
                   left: 30,
                   top: 25,
                   child: SizedBox(
-                    height: height*0.1,
+                    height: height * 0.1,
                     child: Text(
                       'Step 1 of 2',
                       style:
@@ -38,7 +38,7 @@ class Registration1 extends StatelessWidget {
                       left: width * 0.05,
                       child: Center(
                         child: Container(
-                          width: width*0.9,
+                          width: width * 0.9,
                           height: 20,
                           decoration: BoxDecoration(
                             border: Border.all(color: Colors.black),
@@ -47,11 +47,11 @@ class Registration1 extends StatelessWidget {
                           ),
                         ),
                       ),
-                      // width: width * 0.9,
-                      // height: 20,
+                      width: width * 0.9,
+                      height: 20,
                     ),
                     Positioned(
-                      // height: height * 0.1,
+                      height: height * 0.1,
                       top: 50,
                       left: width * 0.05,
                       child: Container(
