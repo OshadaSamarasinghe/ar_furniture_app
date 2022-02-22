@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Main page'),
+        title: Text('Main page.'),
       ),
       body: Column(
         children: [
