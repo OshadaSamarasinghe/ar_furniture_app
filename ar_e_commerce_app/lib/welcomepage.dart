@@ -1,6 +1,7 @@
 // ignore_for_file: prefer_const_constructors, use_key_in_widget_constructors
 
 import 'dart:ui';
+import 'package:ar_e_commerce_app/appbarhome.dart';
 import 'package:flutter/material.dart';
 import 'package:animated_text_kit/animated_text_kit.dart';
 import 'loginpage.dart';
@@ -112,7 +113,7 @@ class Welcomepage extends StatelessWidget {
                               ),
                               onPressed: () {
                                 Navigator.of(context).push(MaterialPageRoute(
-                                    builder: (context) => Welcomepage()));
+                                    builder: (context) => appbarhome()));
                               },
                               child: Text(
                                 'Continue As a Guest ->',
