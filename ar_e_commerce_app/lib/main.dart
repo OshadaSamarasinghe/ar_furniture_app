@@ -25,7 +25,7 @@ class MyApp extends StatelessWidget {
           ElevatedButton(
             onPressed: () {
               Navigator.of(context)
-                  .push(MaterialPageRoute(builder: (context) => appbarhome()));
+                  .push(MaterialPageRoute(builder: (context) => Welcomepage()));
             },
             child: Text('Click'),
           ),
