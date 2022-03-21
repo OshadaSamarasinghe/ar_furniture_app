@@ -1,6 +1,7 @@
 // ignore_for_file: use_key_in_widget_constructors, avoid_unnecessary_containers, file_names, prefer_const_constructors, prefer_const_constructors_in_immutables
 
 import 'package:flutter/material.dart';
+// ignore: unused_import
 import 'package:ar_e_commerce_app/otherModel.dart';
 
 import 'furnithureModel.dart';
