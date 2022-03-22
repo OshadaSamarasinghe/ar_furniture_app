@@ -1,24 +1,19 @@
-// ignore_for_file: use_key_in_widget_constructors
+// ignore_for_file: use_key_in_widget_constructors, camel_case_types, avoid_unnecessary_containers
 
 import 'package:flutter/material.dart';
 
-void main() {
-  runApp(MyApp());
-}
-
-class MyApp extends StatelessWidget {
+class Paintshop extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    var title = 'Paint Shops';
 
-    return MaterialApp(
-      title: title,
-      home: Scaffold(
-        appBar: AppBar(
-          // ignore: prefer_const_constructors
-          title: Text(title),
-        ),
-        body: GridView.count(
+      return Container(
+      margin: EdgeInsets.all(5),
+      padding: EdgeInsets.symmetric(
+        horizontal: 2,
+        vertical: 5,
+      ),
+      height: 450,
+        child: GridView.count(
           // Create a grid with 2 columns. If you change the scrollDirection to
           // horizontal, this produces 2 rows.
           crossAxisCount: 2,
@@ -36,7 +31,7 @@ class MyApp extends StatelessWidget {
             );
           }),
         ),
-      ),
+      
     );
   }
 }

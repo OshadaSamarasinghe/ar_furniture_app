@@ -1,5 +1,9 @@
 // ignore_for_file: use_key_in_widget_constructors
 
+// ignore: unused_import
+import 'package:ar_e_commerce_app/home.dart';
+// ignore: unused_import
+import 'package:ar_e_commerce_app/paintshop.dart';
 import 'package:flutter/material.dart';
 // ignore: unused_import
 import 'appbarhome.dart';
@@ -26,7 +30,7 @@ class MyApp extends StatelessWidget {
           ElevatedButton(
             onPressed: () {
               Navigator.of(context)
-                  .push(MaterialPageRoute(builder: (context) => Welcomepage()));
+                  .push(MaterialPageRoute(builder: (context) => Welcomepage()));//Welcomepage()
             },
             child: Text('Click'),
           ),

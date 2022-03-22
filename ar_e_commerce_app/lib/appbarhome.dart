@@ -2,7 +2,8 @@
 
 
 
-import 'package:ar_e_commerce_app/search.dart';
+// ignore: unused_import
+import 'package:ar_e_commerce_app/home.dart';
 import 'package:ar_e_commerce_app/theappbar.dart';
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'package:flutter/material.dart';
@@ -32,7 +33,7 @@ class appbarhome extends StatelessWidget {
           Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              TheAppBar(), SearchBox()
+              TheAppBar(),Homepage()
             ],
           ),
         ],

@@ -12,6 +12,34 @@ class Registration1 extends StatelessWidget {
       onTap: () => FocusScope.of(context).unfocus(),
       child: Scaffold(
         body: SafeArea(
+          /*child: Stack(
+            children: [
+              //title
+              Positioned(
+                top: 20,
+                left: 50,
+                child: SizedBox(
+                  // height: height * 0.2,
+                  // width: width * 0.8,
+                  child: Text(
+                    "Register",
+                    style: TextStyle(fontSize: 40, fontWeight: FontWeight.bold),
+                  ),
+                ),
+              ),
+              Positioned(
+                top: 40,
+                left: 30,
+                child: SizedBox(
+                  // height: ,
+                  child: Text(
+                    "Step 01 of 02",
+                    style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+                  ),
+                ),
+              ),
+            ],
+          ),*/
           child: SizedBox(
             height: height,
             child: Stack(
